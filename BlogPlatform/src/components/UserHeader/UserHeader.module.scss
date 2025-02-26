@@ -1,0 +1,33 @@
+$background-color-base: #ffffff;
+$heading-color: #000000d9;
+$hover-color: #4096ff;
+
+.UserHeader {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  @media screen and (max-width: 460px) {
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+  }
+}
+
+.User {
+  transition: all 0.1s ease;
+  padding: 10px 0 10px 10px;
+  &:hover {
+    color: $hover-color;
+    border-color: $hover-color;
+  }
+  @media screen and (max-width: 672px) {
+    display: none;
+  }
+}
+
+.avatar {
+  height: 46px;
+  width: 46px;
+  border-radius: 50%;
+  object-fit: cover;
+}

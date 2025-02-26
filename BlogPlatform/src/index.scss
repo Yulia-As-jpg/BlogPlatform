@@ -1,0 +1,8 @@
+@use '../node_modules/scss-reset/scss-reset.scss' as reset;
+@use 'bootstrap/scss/bootstrap' as *;
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css');
+
+body {
+  background-color: #afc3e3;
+  font-family: 'Roboto', sans-serif;
+}

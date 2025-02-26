@@ -1,0 +1,32 @@
+$background-color-base: #ffffff;
+$heading-color: #000000d9;
+$hover-color: #4096ff;
+
+.Header {
+  background-color: $background-color-base;
+  font-size: 18px;
+  height: 80px;
+  padding: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media screen and (max-width: 460px) {
+    padding: 5px;
+    height: auto;
+  }
+}
+
+.Home {
+  &:hover {
+    color: $hover-color;
+  }
+}
+
+.flex {
+  display: flex;
+  gap: 10px;
+  @media screen and (max-width: 460px) {
+    flex-direction: column;
+    gap: 5;
+  }
+}
