@@ -1,1 +1,1 @@
-#[BllogPlatform](blog-platform-virid-three.vercel.app)
+[BllogPlatform](blog-platform-virid-three.vercel.app)
