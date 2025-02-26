@@ -1,1 +1,1 @@
-# [BlogPlatfom](blog-platform-virid-three.vercel.app)
+# [BlogPlatfom](https://blog-platform-psi-six.vercel.app/)
